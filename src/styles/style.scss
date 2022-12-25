@@ -1,0 +1,84 @@
+
+body{
+  background: linear-gradient(90deg , rgb(26, 68, 255) ,rgb(153, 218, 246) ,rgb(26, 68, 255));
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    width: 35rem;
+    height: 35rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 0px 5px 1px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    .category{
+        height: 10%;  padding: 50px;
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px;
+        background: linear-gradient(90deg , rgb(60, 61, 111) ,rgb(33, 126, 166) ,rgb(75, 35, 99));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            font-size: 2rem;
+            font-weight: 600;
+            text-align: center;
+            color: rgb(237, 211, 12);
+
+        }
+    }.question{
+        height: 18%;
+        font-size: 20px;
+        text-align: center;
+        padding: 5px;
+        margin: 5px auto;
+        overflow-x: scroll
+        ;
+    }
+  .answers{
+        height:80px;
+        width: 80%;
+        background-color: rgb(78, 138, 182);
+        margin: 5px auto;
+        border-radius: 5px ;
+        border: none;
+        font-size: 18px;
+        text-align: center;
+        padding: 27px;
+        color: rgb(255, 255, 255);
+        &:hover{
+            background-color: rgb(109, 152, 183);
+            cursor: pointer;
+        }  
+
+    }
+}
+.Cstyle{
+    background-color: green !important;
+}
+.Wstyle{
+    background-color: rgb(242, 37, 14) !important;
+}
+.score{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.end{
+    background-color: rgb(171, 157, 168);
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px auto;
+    .btn{
+        width: 60%;
+        height: 3rem;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(248, 68, 68);
+        cursor: pointer;
+    }
+}
